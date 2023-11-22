@@ -1,0 +1,8 @@
+.lane-container {
+    display: flex;
+    padding: 10px;
+}
+
+.lane-container:last-child {
+    border : none;
+}

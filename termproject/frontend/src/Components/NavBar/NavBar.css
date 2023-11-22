@@ -1,0 +1,14 @@
+.brand-font {
+    color: white;
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.darkbtn {
+    background-color: black;
+    border-color: black;
+    color: white;
+}

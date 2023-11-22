@@ -1,0 +1,32 @@
+.lane {
+    padding: 1rem;
+    width: 250px;
+    position: relative;
+
+}
+
+.lane-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.tasks {
+    position: relative;
+}
+
+.drag-hover::after {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    width: 90%;
+    height: 80%;
+    background-color: #6a6a6a;
+    border-radius: 1rem;
+    opacity: 0.15;
+    pointer-events: none;
+    transform: scale(1.1);
+}
+
